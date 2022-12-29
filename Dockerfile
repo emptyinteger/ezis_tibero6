@@ -32,7 +32,3 @@ RUN mkdir ~/tibero/Tibero/tibero6
 RUN cp ezis_tibero6/license.xml ~/repo
 RUN cp ezis_tibero6/license.xml ~/tibero/Tibero/tibero6/license
 
-RUN cp ezis_tibero6/tibero6-bin-FS07_CS_2005-linux64-186930-opt-tested.tar.gz ~/
-
-# Lambda_function.handler 실행
-RUN tar -zxvf tibero6-bin-FS07_CS_2005-linux64-186930-opt-tested.tar.gz
